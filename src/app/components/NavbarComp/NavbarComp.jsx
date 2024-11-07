@@ -7,7 +7,7 @@ const NavbarComp = () => {
   const [isBurger, setIsBurger] = useState(false);
 
   return (
-    <div className="border px-[5%] py-3 rounded-full">
+    <div className="border px-[20px] py-3 rounded-full">
       <div className="flex justify-between">
         <div>
           <h1 className="font-semibold">Binary Shop BD</h1>

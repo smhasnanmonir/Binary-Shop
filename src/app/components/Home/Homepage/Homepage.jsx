@@ -1,9 +1,13 @@
 import NavbarComp from "../../NavbarComp/NavbarComp";
+import HeroSection from "../HeroSection/HeroSection";
 
 const Homepage = () => {
   return (
-    <div className="pt-[18px] md:px-[2%] px-2">
-      <NavbarComp></NavbarComp>
+    <div className="">
+      <div className="pt-[20px] md:px-[16px] px-[4px]">
+        <NavbarComp></NavbarComp>
+        <HeroSection></HeroSection>
+      </div>
     </div>
   );
 };
